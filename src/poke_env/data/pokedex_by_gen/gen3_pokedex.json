@@ -6622,8 +6622,8 @@
     },
     "jumbao": {
         "abilities": {
-            "0": "Drought",
-            "1": "Trace"
+            "0": "Trace",
+            "1": "Overcoat"
         },
         "baseStats": {
             "atk": 63,
@@ -6648,7 +6648,8 @@
             "Grass",
             "Fairy"
         ],
-        "weightkg": 600
+        "unreleasedHidden": true,
+        "weightkg": 200
     },
     "jumpluff": {
         "abilities": {
@@ -9725,8 +9726,8 @@
     },
     "mumbao": {
         "abilities": {
-            "0": "Solar Power",
-            "1": "Trace"
+            "0": "Trace",
+            "1": "Overcoat"
         },
         "baseStats": {
             "atk": 30,
@@ -9751,7 +9752,8 @@
             "Grass",
             "Fairy"
         ],
-        "weightkg": 250
+        "unreleasedHidden": true,
+        "weightkg": 83
     },
     "murkrow": {
         "abilities": {
@@ -12667,7 +12669,7 @@
             "spd": 55,
             "spe": 85
         },
-        "color": "Gray",
+        "color": "Black",
         "eggGroups": [
             "Water 2"
         ],
@@ -15012,7 +15014,7 @@
             "spd": 75,
             "spe": 115
         },
-        "color": "Black",
+        "color": "Gray",
         "eggGroups": [
             "Field"
         ],

@@ -2935,7 +2935,7 @@
             "spd": 70,
             "spe": 65
         },
-        "color": "Red",
+        "color": "White",
         "eggGroups": [
             "Flying"
         ],
@@ -11469,9 +11469,9 @@
     },
     "jumbao": {
         "abilities": {
-            "0": "Drought",
-            "1": "Trace",
-            "H": "Overcoat"
+            "0": "Trace",
+            "1": "Overcoat",
+            "H": "Drought"
         },
         "baseStats": {
             "atk": 63,
@@ -11496,7 +11496,8 @@
             "Grass",
             "Fairy"
         ],
-        "weightkg": 600
+        "unreleasedHidden": true,
+        "weightkg": 200
     },
     "jumpluff": {
         "abilities": {
@@ -16173,9 +16174,9 @@
     },
     "mumbao": {
         "abilities": {
-            "0": "Solar Power",
-            "1": "Trace",
-            "H": "Overcoat"
+            "0": "Trace",
+            "1": "Overcoat",
+            "H": "Solar Power"
         },
         "baseStats": {
             "atk": 30,
@@ -16200,7 +16201,8 @@
             "Grass",
             "Fairy"
         ],
-        "weightkg": 250
+        "unreleasedHidden": true,
+        "weightkg": 83
     },
     "munchlax": {
         "abilities": {
@@ -19904,7 +19906,7 @@
             "spd": 55,
             "spe": 85
         },
-        "color": "Gray",
+        "color": "Black",
         "eggGroups": [
             "Water 2"
         ],
@@ -23537,7 +23539,7 @@
             "spd": 75,
             "spe": 115
         },
-        "color": "Black",
+        "color": "Gray",
         "eggGroups": [
             "Field"
         ],

@@ -653,15 +653,12 @@
         "basePower": 0,
         "category": "Status",
         "condition": {
-            "duration": 4,
-            "durationCallback": "durationCallback",
             "onBeforeMove": "onBeforeMove",
+            "onBeforeMovePriority": 7,
             "onDisableMove": "onDisableMove",
             "onEnd": "onEnd",
-            "onResidualOrder": 14,
             "onStart": "onStart"
         },
-        "contestType": "Clever",
         "flags": {
             "bypasssub": 1,
             "mirror": 1,
@@ -675,10 +672,7 @@
         "secondary": null,
         "target": "normal",
         "type": "Normal",
-        "volatileStatus": "disable",
-        "zMove": {
-            "effect": "clearnegativeboost"
-        }
+        "volatileStatus": "disable"
     },
     "dizzypunch": {
         "accuracy": 100,
