@@ -1,24 +1,4 @@
-# -*- coding: utf-8 -*-
-import os
-import orjson
-
-from pytest import fixture
-
-
-FIXTURE_DIR = os.path.join("fixture_data")
-
-
-@fixture
-def showdown_format_teams(raw_team_data):
-    data = {}
-    for format_, team_list in raw_team_data.items():
-        data[format_] = []
-
-        for team_info in team_list:
-            with open(os.path.join(FIXTURE_DIR, team_info["showdown-file"])) as f:
-                data[format_].append(f.read())
-    return data
-
+# -*- coding: utf-
 
 @fixture
 def packed_format_teams(raw_team_data):
